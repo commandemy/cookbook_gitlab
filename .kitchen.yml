@@ -1,0 +1,24 @@
+---
+driver:
+  name: openstack
+  openstack_username: admin
+  openstack_api_key: password
+  openstack_auth_url: http://192.168.1.4:5000/v2.0/tokens
+  require_chef_omnibus: latest
+  image_ref: a8a58df9-e4f3-46e9-a4f2-a0ff94741015
+  flavor_ref: 3
+  tenant_name: admin
+  username: ubuntu
+  key_name: mykey
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[gitlab::default]
+    attributes:
