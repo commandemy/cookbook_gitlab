@@ -6,5 +6,5 @@ description      'Installs/Configures gitlab'
 long_description 'Installs/Configures gitlab'
 version          '0.1.0'
 
-depends "apt"
-depends "postfix"
+depends "apt", '2.6.0'
+depends "postfix", '3.6.0'
