@@ -4,7 +4,7 @@ maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
 description      'Installs/Configures gitlab'
 long_description 'Installs/Configures gitlab'
-version          '0.1.0'
+version          '0.1.1'
 
 depends "apt", '2.6.0'
 depends "postfix", '3.6.0'
