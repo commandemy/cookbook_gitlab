@@ -1,6 +1,6 @@
 # gitlab-cookbook
 
-TODO: Enter the cookbook description here.
+Super simple cookbook to deploy Gitlab.
 
 ## Supported Platforms
 
