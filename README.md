@@ -1,10 +1,10 @@
 # gitlab-cookbook
 
-TODO: Enter the cookbook description here.
+Super simple cookbook to deploy Gitlab.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu
 
 ## Attributes
 
@@ -39,4 +39,5 @@ Include `gitlab` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Jürgen Brüder (jb)
+Author:: Edmund Haselwanter (me@ehaselwanter.com)
