@@ -4,7 +4,7 @@ Super simple cookbook to deploy Gitlab.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu
 
 ## Attributes
 
