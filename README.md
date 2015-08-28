@@ -39,4 +39,4 @@ Include `gitlab` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: Edmund Haselwanter (<YOUR_EMAIL>)
+Author:: Edmund Haselwanter (me@ehaselwanter.com)
