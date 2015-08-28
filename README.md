@@ -4,7 +4,7 @@ Super simple cookbook to deploy Gitlab.
 
 ## Supported Platforms
 
-Ubuntu       
+Ubuntu
 
 ## Attributes
 
@@ -39,4 +39,4 @@ Include `gitlab` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Edmund Haselwanter (<YOUR_EMAIL>)
