@@ -39,5 +39,5 @@ Include `gitlab` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: Jürgen Brüder (jb)
+Author:: Jürgen Brüder (hello@juergenbrueder.com)
 Author:: Edmund Haselwanter (me@ehaselwanter.com)
