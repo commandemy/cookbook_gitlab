@@ -11,13 +11,13 @@ include_recipe 'apt'
 
 # Download Omnibus package and install dependencies
 remote_file "#{Chef::Config[:file_cache_path]}/gitlab-ce_7.14.2-ce.1_amd64.deb" do
-  source 'https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/precise/gitlab-ce_7.14.2-ce.1_amd64.deb'
+  source 'https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/precise/gitlab-ce_7.14.2-ce.1_amd64.deb/download'
 end
 
 apt_package 'openssh-server'
 include_recipe 'postfix'
 
-dpkg_package "#{Chef::Config[:file_cache_path]}/gitlab-ce_7.12.2~omnibus.1-1_amd64.deb" do
+dpkg_package "#{Chef::Config[:file_cache_path]}/gitlab-ce_7.14.2-ce.1_amd64.deb" do
   action :install
 end
 
